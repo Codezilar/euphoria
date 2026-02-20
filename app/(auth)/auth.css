@@ -1,0 +1,37 @@
+
+
+/* Auth */
+
+.auth{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 5rem;
+}
+
+.sign_left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_logo{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .auth{
+    grid-template-columns: 1fr;
+  }
+}
